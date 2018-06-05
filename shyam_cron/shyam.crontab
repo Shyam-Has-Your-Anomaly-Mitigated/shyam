@@ -20,19 +20,20 @@
 # https://unix.stackexchange.com/a/163716
 # https://ubuntuforums.org/showthread.php?t=2228704
 # -f 30-8000Hz. A minimum of 1Hz is still enforced.
-0 08-21 * * * export DISPLAY=:0&&(speaker-test)&pid=$!;sleep 3s;kill -9 $pid
-* 08-09 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1337)&pid=$!;sleep 0.1s;kill -9 $pid
-* 10 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1300)&pid=$!;sleep 0.1s;kill -9 $pid
-* 11 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1200)&pid=$!;sleep 0.1s;kill -9 $pid
-* 12 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1100)&pid=$!;sleep 0.1s;kill -9 $pid
-* 13 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1000)&pid=$!;sleep 0.1s;kill -9 $pid
-* 14 * * * export DISPLAY=:0&&(speaker-test -t sine -f 900)&pid=$!;sleep 0.1s;kill -9 $pid
-* 15 * * * export DISPLAY=:0&&(speaker-test -t sine -f 800)&pid=$!;sleep 0.1s;kill -9 $pid
-* 16 * * * export DISPLAY=:0&&(speaker-test -t sine -f 700)&pid=$!;sleep 0.1s;kill -9 $pid
-* 17 * * * export DISPLAY=:0&&(speaker-test -t sine -f 600)&pid=$!;sleep 0.1s;kill -9 $pid
-* 18 * * * export DISPLAY=:0&&(speaker-test -t sine -f 500)&pid=$!;sleep 0.1s;kill -9 $pid
-* 19 * * * export DISPLAY=:0&&(speaker-test -t sine -f 400)&pid=$!;sleep 0.1s;kill -9 $pid
-* 20 * * * export DISPLAY=:0&&(speaker-test -t sine -f 300)&pid=$!;sleep 0.1s;kill -9 $pid
+00 08 * * * export DISPLAY=:0&&spd-say -t child_female "don't, panic! aa-woo-ga! aa-woo-ga! wake the yotz up and exercise you fa-pu-ta; oh my god, doo not make excuses; what a load of fahrbot! byy, hezmana, you do not have the mivonks to do what needs, to be done! aa-woo-ga! aa-woo-ga!"
+00 09-21 * * * export DISPLAY=:0&&(speaker-test)&pid=$!;sleep 3s;kill -9 $pid
+00 09-09 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1337)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 10 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1300)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 11 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1200)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 12 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1100)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 13 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1000)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 14 * * * export DISPLAY=:0&&(speaker-test -t sine -f 900)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 15 * * * export DISPLAY=:0&&(speaker-test -t sine -f 800)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 16 * * * export DISPLAY=:0&&(speaker-test -t sine -f 700)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 17 * * * export DISPLAY=:0&&(speaker-test -t sine -f 600)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 18 * * * export DISPLAY=:0&&(speaker-test -t sine -f 500)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 19 * * * export DISPLAY=:0&&(speaker-test -t sine -f 400)&pid=$!;sleep 0.1s;kill -9 $pid
+01-59 20 * * * export DISPLAY=:0&&(speaker-test -t sine -f 300)&pid=$!;sleep 0.1s;kill -9 $pid
 
 # https://askubuntu.com/a/149264
 * 01-17 * * * export DISPLAY=:0&&xrandr --output "$(xrandr -q|grep \ connected|cut -f1 -d' ')" --brightness 1

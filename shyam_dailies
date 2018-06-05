@@ -4,7 +4,7 @@
 # ☒☐☑
 ; my @checklist = [
 	qx/shyam_time/.trim # use this for logging; copy & paste untile automate
-	, "eat multivitamin"
+	, "eat vegan multivitamin"
 	, "drink water"
 	, "do 10 situps" # since the bed has the perfect bar for holding my feet
 ]

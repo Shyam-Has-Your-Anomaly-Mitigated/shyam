@@ -33,3 +33,10 @@
 * 18 * * * export DISPLAY=:0&&(speaker-test -t sine -f 500)&pid=$!;sleep 0.1s;kill -9 $pid
 * 19 * * * export DISPLAY=:0&&(speaker-test -t sine -f 400)&pid=$!;sleep 0.1s;kill -9 $pid
 * 20 * * * export DISPLAY=:0&&(speaker-test -t sine -f 300)&pid=$!;sleep 0.1s;kill -9 $pid
+
+# https://askubuntu.com/a/149264
+* 01-17 * * * export DISPLAY=:0&&xrandr --output "$(xrandr -q|grep \ connected|cut -f1 -d' ')" --brightness 1
+* 18 * * * export DISPLAY=:0&&xrandr --output "$(xrandr -q|grep \ connected|cut -f1 -d' ')" --brightness .75
+* 19 * * * export DISPLAY=:0&&xrandr --output "$(xrandr -q|grep \ connected|cut -f1 -d' ')" --brightness .5
+* 20 * * * export DISPLAY=:0&&xrandr --output "$(xrandr -q|grep \ connected|cut -f1 -d' ')" --brightness .25
+* 21 * * * export DISPLAY=:0&&xrandr --output "$(xrandr -q|grep \ connected|cut -f1 -d' ')" --brightness 0

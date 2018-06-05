@@ -1,0 +1,14 @@
+#!/usr/bin/env perl6
+; my $hour = qx{date +%H}.trim
+; my $minute = qx{date +%M}.trim
+; my $task = "do something"
+; $task = "eat an orange"
+; my $time = "$hour oclock"
+#; $time = "$hour:$minute"
+; $time ~~ s/^'00:'(.*)$/$/[0] minutes past midnight/
+; $time ~~ s/^'0'//
+; qqx{
+	spd-say -t child_female "don't, panic! aa-woo-ga! aa-woo-ga! wake the yotz up and exercise you fa-pu-ta; oh my god, doo not make excuses; what a load of fahrbot! Byy, hezmana, you, do, not, have, the, mivonks, to, do, what, needs, to, be, done! aa-woo-ga! aa-woo-ga!";
+}
+	#spd-say -t child_female "it is $time, time to $task";
+	#spd-say -t child_female "stop being a lackadaisical wastrel & wake, the, grawlix up & start  exercising";

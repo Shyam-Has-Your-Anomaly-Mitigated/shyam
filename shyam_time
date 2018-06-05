@@ -1,0 +1,2 @@
+#!/usr/bin/env perl6
+; print qx/date +he:1%Y,%m,%d,%H,%M,%S.%N/

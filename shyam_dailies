@@ -1,0 +1,12 @@
+#!/usr/bin/env perl6
+# https://en.wikipedia.org/wiki/Check_mark
+# http://www.amp-what.com/unicode/search/ballot
+# ☒☐☑
+; my @checklist = [
+	qx/shyam_time/.trim # use this for logging; copy & paste untile automate
+	, "eat multivitamin"
+	, "drink water"
+	, "do 10 situps" # since the bed has the perfect bar for holding my feet
+]
+; say "good, you're awake; now do all of these:"
+; @checklist.map({; say "\t☐ " ~ $_})

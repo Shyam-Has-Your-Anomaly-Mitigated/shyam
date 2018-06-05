@@ -1,0 +1,3 @@
+sudo chown $user $address
+sudo chown -R $user $address
+sudo chown -R $user:$group $address

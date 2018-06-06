@@ -1,0 +1,17 @@
+#!/usr/bin/env perl6
+#'(
+generate tempoℝælly significant $crontab
+; qqx/crontab -i <<<"$crontab"/
+generate $checklist based on files
+; say $checklist
+
+my $title = s/(filename).ext/$1/
+# checklist format
+$title:
+	☐ line 1
+	☐ line 2:
+		☐ indentation 2.1
+		☐ indentation 2.2
+		☐ indentation 2.3
+	☐ line 6
+)

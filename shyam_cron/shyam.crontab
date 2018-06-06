@@ -20,7 +20,7 @@
 # https://unix.stackexchange.com/a/163716
 # https://ubuntuforums.org/showthread.php?t=2228704
 # -f 30-8000Hz. A minimum of 1Hz is still enforced.
-00 08 * * * export DISPLAY=:0&&spd-say -t child_female "don't, panic! aa-woo-ga! aa-woo-ga! wake the yotz up and exercise you fa-pu-ta; oh my god, doo not make excuses; what a load of fahrbot! byy, hezmana, you do not have the mivonks to do what needs, to be done! aa-woo-ga! aa-woo-ga!"
+00 08 * * * export DISPLAY=:0&&spd-say -t child_female "don't, panic! aa-woo-ga! aa-woo-ga! wake the yotz up and exercise you fa-pu-ta; oh my god, doo not make excuses; what a load of fahrbot! byy, hezmana, yoooo, doooo not, have theee mivonks, too doooo, what neeeeds, to be done! aa-woo-ga! aa-woo-ga!"
 00 09-21 * * * export DISPLAY=:0&&(speaker-test)&pid=$!;sleep 3s;kill -9 $pid
 00 09-09 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1337)&pid=$!;sleep 0.1s;kill -9 $pid
 01-59 10 * * * export DISPLAY=:0&&(speaker-test -t sine -f 1300)&pid=$!;sleep 0.1s;kill -9 $pid

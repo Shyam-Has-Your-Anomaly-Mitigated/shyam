@@ -1,11 +1,11 @@
 space cobras by ≥1 hour
 
-carrot …all I ℝeally need is vitamin a; ¬ahiṁsā/fruitāryam (bg9.26), but neither are vegan multivitamins
-orange …all I ℝeally need is vitamin c
-banana …all I ℝeally need is vitamin b
+carrot …all i ℝeally need is vitamin a; ¬ahiṁsā/fruitāryam (bg9.26), but neither are vegan multivitamins
+orange …all i ℝeally need is vitamin c
+banana …all i ℝeally need is vitamin b
 rice ∧ Ω flaxseed oil ∧ chilli ∧ iodised salt ∧ water ∧ can∈{{tomato,lentil,chickpea},{*beans},{corn,pea,carrot},{potato}} ¿∧ herbs ∧ spices?
-avocado …all I ℝeally need is vitamins
-$oy/vegan milk ¿∧ cereal∈{…}? …all I ℝeally need is calcium
+avocado …all i ℝeally need is vitamins
+$oy/vegan milk ¿∧ cereal∈{…}? …all i ℝeally need is calcium
 
 vegan multivitamin
 water
@@ -41,9 +41,19 @@ muesli bars (for my sugary sanity; pāgala); no more than 1÷h
 
 …
 
+protein ([56g,98.3g] ÷ day); https://en.wikipedia.org/wiki/Protein_(nutrient)#Dietary_recommendations
+	32.8 ÷ 1l soy milk (64%d*i*)
+	17.7g ÷ 225g (420g c̄ liquid,..)) red kidney beans (36%d*i*)
+	…50.5g is good enough; there's more in every"-thing" else anyway (i think rice has me covered)
+calcium (1000mg ÷ day); https://en.wikipedia.org/wiki/Calcium_in_biology#Dietary_recommendations
+	1200mg ÷ 1l soy milk (300mg ÷ 250ml (152%r*d*i*?))
+	…1200mg is more than enough
+
+…
+
 kōan shopping:
 	never buy bulk; buy one ∧ if it's no good, buy another from elsewhere
-	some parsimonious places (CBR) won't give you bags for free, but other places (SYD) are user friendly; just grab the (all you can take) fruit ∧ vegetable bags to use for garbage collection
+	some parsimonious places (c*b*r*) won't give you bags for free, but other places (s*y*d*) are user friendly; just grab the (all you can take) fruit ∧ vegetable bags to use for garbage collection
 constant shopping:
 	cans; prefer protein ∧ shake before you buy (if it's not watery inside, then it's probably fermented)
 	soy milk; try to get one c̄out the debris (try different brands, ordered economically)
@@ -58,7 +68,7 @@ variable shopping:
 	Ω flaxseed oil
 	iodised salt
 
-TODO:
+todo:
 	write a shopping list generator to decide "-thing"s like cans
 	it should be over-ride-able
 	log what i buy

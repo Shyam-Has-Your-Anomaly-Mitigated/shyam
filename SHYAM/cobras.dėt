@@ -3,7 +3,7 @@ space cobras by ≥1 hour
 carrot …all i ℝeally need is vitamin a; ¬ahiṁsā/fruitāryam (bg9.26), but neither are vegan multivitamins
 orange …all i ℝeally need is vitamin c
 banana …all i ℝeally need is vitamin b
-rice ∧ Ω flaxseed oil ∧ chilli ∧ iodised salt ∧ water ∧ can∈{{tomato,lentil,chickpea},{*beans},{corn,pea,carrot},{potato}} ¿∧ herbs ∧ spices?
+rice ∧ Ω flaxseed oil ∧ chilli ∧ himalayan salt ∧ water ∧ can∈{{tomato,lentil,chickpea},{*beans},{corn,pea,carrot},{potato}} ¿∧ herbs ∧ spices?
 avocado …all i ℝeally need is vitamins
 $oy/vegan milk ¿∧ cereal∈{…}? …all i ℝeally need is calcium
 
@@ -66,7 +66,7 @@ constant shopping:
 variable shopping:
 	rice
 	Ω flaxseed oil
-	iodised salt
+	himalayan salt
 
 todo:
 	write a shopping list generator to decide "-thing"s like cans

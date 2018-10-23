@@ -3,12 +3,11 @@
 # usage: shyam_dump.sh textual information '(including cyberspacial addresses)'
 # known bugs: curvies, singles, doubles, backticks,..
 # known solutions: escaping, quoting∈{singles,doubles},..
-# TODO: automate $meta
 
 # automated archival: YYYY-MM-DD.dump sorts archives by date, or grep "dump"
 # this way the default groups filetypes by date to observe chronological activity
-meta=38 #TODO: update this after modifying me; it's the line number of the CPL
-archive='archive';
+archive='archive'; # TODO: update this to change archival directory
+meta=`grep -n -m1 -E '\#{108}' "$0" | cut -d: -f1`
 address="$(dirname "$(readlink -f "$0")")/$archive";
 today="$address/`date +%F`.dump";
 mkdir -p "$address"

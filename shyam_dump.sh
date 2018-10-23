@@ -37,6 +37,3 @@ exit;
 # self-hosted database
 # https://en.wikipedia.org/wiki/Characters_per_line
 ############################################################################################################
-x
-y
-z

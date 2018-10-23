@@ -4,12 +4,13 @@
 # known bugs: curvies, singles, doubles, backticks,..
 # known solutions: escaping, quoting∈{singles,doubles},..
 
-# automated archival: YYYY-MM-DD.dump sorts archives by date, or grep "dump"
+# automated archival: YYYY-MM-DD.dump sorts archives by date, or `ls archive|grep dump`
 # this way the default groups filetypes by date to observe chronological activity
 archive='archive'; # TODO: update this to change archival directory
+filetype='dump'; # TODO: update this to change archival filetype; default="dump"
 meta=`grep -n -m1 -E '\#{108}' "$0" | cut -d: -f1`;
 address="$(dirname "$(readlink -f "$0")")/$archive";
-today="$address/`date +%F`.dump";
+today="$address/`date +%F`.$filetype";
 mkdir -p "$address";
 if [ ! -e "$today" ];then
 	tail -$((`wc -l "$0"|cut -d' ' -f1`-$meta)) "$0">"$today";

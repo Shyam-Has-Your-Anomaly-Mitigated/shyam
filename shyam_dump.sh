@@ -7,7 +7,7 @@
 
 # automated archival: YYYY-MM-DD.dump sorts archives by date, or grep "dump"
 # this way the default groups filetypes by date to observe chronological activity
-meta=38 #TODO: update this after modifying me; it's the line number of the CPL
+meta=39 #TODO: update this after modifying me; it's the line number of the CPL
 archive='archive';
 address="$(dirname "$(readlink -f "$0")")/$archive";
 today="$address/`date +%F`.dump";

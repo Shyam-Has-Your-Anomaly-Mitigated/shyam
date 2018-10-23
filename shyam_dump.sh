@@ -2,7 +2,7 @@
 # purpose: informational distraction dump (a*k*a* you ain't gonna read it…ever again)
 # usage: shyam_dump.sh textual information '(including cyberspacial addresses)'
 # known bugs: curvies, singles, doubles, backticks,..
-# known solutions: escaping, quoting∈{singles,doubles},..
+# known patches: escaping, quoting∈{singles,doubles},..
 
 # automated archival: YYYY-MM-DD.dump sorts archives by date, or `ls archive|grep dump`
 # this way the default groups filetypes by date to observe chronological activity

@@ -11,11 +11,10 @@ meta=39 #TODO: update this after modifying me; it's the line number of the CPL
 archive='archive';
 address="$(dirname "$(readlink -f "$0")")/$archive";
 today="$address/`date +%F`.dump";
-script="`cat "$0"`";
 mkdir -p "$address"
 if [ ! -e "$today" ];then
 	tail -$((`wc -l "$0"|cut -d' ' -f1`-$meta)) "$0">"$today";
-	env head -$meta <<<"$script" >"$0";
+	env head -$meta <<<"`cat "$0"`" >"$0";
 fi;
 
 # http://matrix.wikia.com/wiki/Prime_Program

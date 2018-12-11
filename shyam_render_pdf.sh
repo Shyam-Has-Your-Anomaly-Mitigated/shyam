@@ -1,6 +1,7 @@
 #!/bin/sh
 # purpose: self-documented
 # usage: shyam_render_pdf.sh 0.pdf 1.pdf 2.pdf 3.pdf … ∞.pdf … श्याम.pdf
+# usage: shyam_render_pdf.sh *.pdf
 # reason: pdf arbitrarily returned "Segmentation fault (core dumped)" on some files ∴ a spof is more reliable
 for each in "$@";
 do [ "`file -b --mime-type \"$each\"`" = application/pdf ]&&firefox "$each"&&printf +||printf -&&echo " $each";

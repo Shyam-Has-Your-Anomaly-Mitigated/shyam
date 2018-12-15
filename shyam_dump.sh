@@ -14,7 +14,7 @@ mkdir -p "$address";
 if [ ! -e "$today" ];then
 	meta=`grep -n -m1 -E '\#{108}' "$0" | cut -d: -f1`;
 	tail -$((`wc -l "$0"|cut -d' ' -f1`-$meta)) "$0">"$today";
-	env head -$meta <<<"`cat "$0"`" >"$0";
+	head -$meta <<<"`cat "$0"`" >"$0";
 fi;
 
 # http://matrix.wikia.com/wiki/Prime_Program

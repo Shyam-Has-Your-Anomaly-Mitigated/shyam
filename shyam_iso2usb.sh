@@ -15,3 +15,8 @@ cat > "$device" < "$file" && sync;
 
 # esc(ape)
 exit;
+
+# 5w devices
+mount | grep /dev/sd;
+
+# i don't think cats like raspberry pies…

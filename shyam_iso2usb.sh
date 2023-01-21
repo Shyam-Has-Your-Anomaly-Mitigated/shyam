@@ -36,6 +36,7 @@ sudo update-grub
 
 # now i'm /protesting|campaigning/ against halt; what do we want? poweroff! (until i actually test this theory; probably never, unless poweroff doesn't work either; `halt; poweroff;`? `halt && poweroff;`?)
 sudo poweroff; # it works!!! :D
+# halt fucking sucks! halt can fucking catch fire!
 
 # i don't think cats like raspberry pies…
 # 12022 is the year of cutting my losses…

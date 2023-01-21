@@ -31,10 +31,11 @@ normal
 nano /etc/sudoers; # type out the whole fucking s/root/userfuckiname/
 # why the fuck do i have to sudo reboot? rebooting is such a fucking vulnerability‽ it should fucking say why the fuck!
 # i still haven't figured this out; i decided it's a security feature, since who the fuck knows any of this is my fucking authentication protocol
-sudo grub-install /dev/mmcblk0* # somewhere on the internet it says you can just /dev/mmcblk0, or /dev/mmcblk; neither of which (actually) work
+sudo grub-install /dev/mmcblk0* # somewhere on the internet it says you can just /dev/mmcblk0, or /dev/mmcblk; neither of which (actually) work; i tried all the * at the same time (one after the other; labouriously, because it doesn't support multiple whatever the fuck); it didn't work
 sudo update-grub
 
 # now i'm /protesting|campaigning/ against halt; what do we want? poweroff! (until i actually test this theory; probably never, unless poweroff doesn't work either; `halt; poweroff;`? `halt && poweroff;`?)
+sudo poweroff; # it works!!! :D
 
 # i don't think cats like raspberry pies…
 # 12022 is the year of cutting my losses…

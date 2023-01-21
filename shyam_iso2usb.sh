@@ -22,6 +22,17 @@ exit;
 mount | grep /dev/sd;
 
 # grub @ https://www.geeksforgeeks.org/how-to-fix-minimal-bash-like-line-editing-is-supported-grub-error-in-linux/
+ls (*
+set root=(ext*)
+set prefix=(ext*)/boot/grub
+insmod normal
+normal
+# they couldn't fucking make this easier
+nano /etc/sudoers; # type out the whole fucking s/root/userfuckiname/
+# why the fuck do i have to sudo reboot? rebooting is such a fucking vulnerability‽ it should fucking say why the fuck!
+# i still haven't figured this out; i decided it's a security feature, since who the fuck knows any of this is my fucking authentication protocol
+sudo grub-install /dev/mmcblk0*
+sudo update-grub
 
 # i don't think cats like raspberry pies…
 # 12022 is the year of cutting my losses…

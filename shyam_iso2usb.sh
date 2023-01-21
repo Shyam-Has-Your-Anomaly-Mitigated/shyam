@@ -21,5 +21,7 @@ exit;
 # 5w devices; still need gnome-disks for formatting,..
 mount | grep /dev/sd;
 
+# grub @ https://www.geeksforgeeks.org/how-to-fix-minimal-bash-like-line-editing-is-supported-grub-error-in-linux/
+
 # i don't think cats like raspberry pies…
 # 12022 is the year of cutting my losses…

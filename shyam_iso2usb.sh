@@ -16,7 +16,7 @@ cat > "$device" < "$file" && sync;
 # esc(ape)
 exit;
 
-# 5w devices
+# 5w devices; still need gnome-disks for formatting,..
 mount | grep /dev/sd;
 
 # i don't think cats like raspberry pies…

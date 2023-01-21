@@ -11,7 +11,7 @@ device="/dev/sd$2";
 device="$2";
 
 # kitty >whiskers< nom 🙀🙀 sink!
-time cat > "$device" < "$file" && sync; # 2.8g(2977595392)@6m1.032s
+time cat > "$device" < "$file" && sync; # 2.8g(2977595392)@6m1.032s && _
 
 # esc(ape)
 exit;

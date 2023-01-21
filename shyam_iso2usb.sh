@@ -23,7 +23,7 @@ mount | grep /dev/sd;
 
 # grub @ https://www.geeksforgeeks.org/how-to-fix-minimal-bash-like-line-editing-is-supported-grub-error-in-linux/
 ls (*
-set root=(ext*)
+set root=(ext*) # i don't think this is even necessary; (but) what does it do? is any of this necessary? no, wait; maybe it broke halt…
 set prefix=(ext*)/boot/grub
 insmod normal
 normal

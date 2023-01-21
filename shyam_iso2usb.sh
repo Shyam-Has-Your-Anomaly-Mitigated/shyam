@@ -34,5 +34,7 @@ nano /etc/sudoers; # type out the whole fucking s/root/userfuckiname/
 sudo grub-install /dev/mmcblk0* # somewhere on the internet it says you can just /dev/mmcblk0, or /dev/mmcblk; neither of which (actually) work
 sudo update-grub
 
+# now i'm /protesting|campaigning/ against halt; what do we want? poweroff! (until i actually test this theory; probably never, unless poweroff doesn't work either; `halt; poweroff;`? `halt && poweroff;`?)
+
 # i don't think cats like raspberry pies…
 # 12022 is the year of cutting my losses…

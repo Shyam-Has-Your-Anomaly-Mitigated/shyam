@@ -27,7 +27,7 @@ set root=(ext*) # i don't think this is even necessary; (but) what does it do? i
 set prefix=(ext*)/boot/grub
 insmod normal
 normal
-# they couldn't fucking make this easier
+# they couldn't fucking make this easier; i already fucking memorised it, and this explains why noone cares (enough to do any"-thing" about it)
 nano /etc/sudoers; # type out the whole fucking s/root/userfuckiname/
 # why the fuck do i have to sudo reboot? rebooting is such a fucking vulnerability‽ it should fucking say why the fuck!
 # i still haven't figured this out; i decided it's a security feature, since who the fuck knows any of this is my fucking authentication protocol

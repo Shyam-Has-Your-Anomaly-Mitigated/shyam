@@ -31,7 +31,7 @@ normal
 nano /etc/sudoers; # type out the whole fucking s/root/userfuckiname/
 # why the fuck do i have to sudo reboot? rebooting is such a fucking vulnerability‽ it should fucking say why the fuck!
 # i still haven't figured this out; i decided it's a security feature, since who the fuck knows any of this is my fucking authentication protocol
-sudo grub-install /dev/mmcblk0*
+sudo grub-install /dev/mmcblk0* # somewhere on the internet it says you can just /dev/mmcblk0, or /dev/mmcblk; neither of which (actually) work
 sudo update-grub
 
 # i don't think cats like raspberry pies…
